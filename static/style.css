@@ -1,0 +1,688 @@
+#navbar {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.3vw;
+    background-color: #15151a;
+    align-items: center;
+    color: #ffffff;
+    justify-content: center;
+    text-align: center;
+}
+
+#home {
+    flex: 0.4 auto;
+}
+
+#features {
+    flex: 0.4 auto;
+
+}
+
+#products {
+    flex: 0.4 auto;
+
+}
+
+#ourmission {
+    flex: 0.4 auto;
+
+}
+
+#blog {
+    flex: 0.4 auto;
+
+}
+
+#faq {
+    flex: 0.4 auto;
+
+}
+
+#dashboard-button {
+    flex: 1 auto;
+    transition: 0.3s;
+    width: 17vw;
+}
+
+#dashboard-button:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.my-spacer {
+    flex: 1 auto;
+
+}
+
+#navbarLogo {
+    flex: 1 auto;
+    width: 150px
+}
+
+@font-face {
+    font-family: circular;
+    src: url(/static/fonts/circular-std-medium-500.ttf);
+}
+
+html {
+    background-color: #101014;
+    font-family: circular;
+    color: #ffffff
+}
+
+#promoCode {
+    width: 100%;
+    height: 5vh;
+    color: #ffffff;
+    text-align: center;
+    margin: auto;
+    background-color: #50c9c3;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#home-section {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-image: url(/static/BackgroundDetails.png);
+    background-size: 100%;
+    padding-bottom: 10%;
+}
+
+#left-section {
+    flex: 1 auto;
+    height: auto;
+    width: 30%;
+    justify-content: center;
+    margin-left: 8%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+#right-section {
+    width: 90%;
+    justify-content: left;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    flex: 1.7 auto;
+    margin-top: -7%;
+
+}
+
+#left-section-button {
+    display: flex;
+    flex-direction: row;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: -2%;
+    height: auto;
+    width: 100%;
+
+
+}
+
+#left-section-text {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10%;
+    margin-left: 10%;
+    height: fit-content;
+    width: 100%;
+
+
+}
+
+.my-spacer-button {
+    flex: 1 auto;
+}
+
+#supportingMarkets {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    height: fit-content;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#supportingMarketsImages {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+#supportingMarketsContainer {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    height: 50vh;
+    background-color: #19191F;
+    align-items: center;
+}
+
+#featuresSection {
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    margin-bottom: 8%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#featuresImage {
+    flex: 0.7 auto;
+    width: 35%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    min-width: 300px
+}
+
+#featuresImageMini {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+#featuresTextSection {
+    flex: 0.7 auto;
+    width: 35%;
+    align-items: center;
+    justify-content: center;
+    min-width: 300px;
+    flex-wrap: wrap;
+    font-size: 1rem;
+}
+
+#featuresTextSectionMini {
+    margin: auto;
+    width: 70%;
+    height: fit-content;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+#smallFeatures {
+    margin-top: 8%;
+    margin-bottom: 8%;
+    width: 100%;
+    height: auto;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+#smallFeaturesInnerContainer {
+    width: 80%;
+    height: auto;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+#smallFeaturesMini {
+    flex: 0.2 auto;
+    width: 13%;
+    height: 20%;
+    font-size: 0.8em;
+    margin: auto;
+    min-width: 300px;
+
+
+}
+
+#featuresSectionMini {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#productPlans {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    flex-wrap: wrap;
+    margin-bottom: 10%;
+
+}
+
+#productPlansMini {
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: sum(fit-content+200px);
+}
+
+#productPlansText {
+    width: 80%;
+    margin-bottom: 2%;
+}
+
+#ourMission {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #19191F;
+    margin-top: 8%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#ourMissionMini {
+    height: fit-content;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #272730;
+    border-radius: 25px;
+    flex-direction: column;
+    padding-top: 2%;
+    overflow: hidden;
+
+}
+
+#ourMissionTitle {
+    justify-content: left;
+    align-items: center;
+    width: 90%;
+    height: 20%;
+    flex-direction: row;
+    display: flex;
+    margin-bottom: 1%;
+    ;
+}
+
+#ourMissionPara {
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 80%;
+    margin-bottom: 3%;
+
+
+}
+
+#mailingList {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+#mailingListMini {
+    display: flex;
+    width: 80%;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+#signup {
+    display: flex;
+    font-size: 2rem;
+    width: 100%;
+    height: 200px;
+    background-color: #19191F;
+    border-radius: 30px;
+}
+
+#signupLeft {
+    display: flex;
+    flex: 1.5 auto;
+    width: 60%;
+    margin-left: 5%;
+    align-items: center;
+    justify-content: center;
+}
+
+#signupRight {
+    display: flex;
+    flex: 0.5 auto;
+    width: 40%;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 5%;
+}
+
+#joinArea {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 20%;
+    width: 90%;
+}
+
+#subscribeButton {
+    font-size: 0.7rem;
+    background-color: #50C9C3;
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 7px;
+}
+
+#fname {
+    font-size: 0.5rem;
+    background-color: #101014;
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#footerMini {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.footerSections {
+    font-size: 0.7rem;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+#footerDisc {
+    width: 80%;
+    font-size: 0.7rem;
+}
+
+#footerLinks {
+    width: 80%;
+    font-size: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#footerLogos {
+    width: 33%;
+}
+
+#footerCopyright {
+    width: 33%;
+}
+
+#footerSpacer {
+    width: 33%;
+}
+
+.footerImgMod {
+    margin: 2%;
+}
+
+#footerBottom {
+    margin-top: 5%;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: #15151a;
+    align-items: center;
+    justify-content: center;
+}
+
+.productPlanBoxes {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    height: 95%;
+    margin-top: 25%;
+}
+
+.productPlanBoxesPrice {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+    height: 30%;
+    margin-bottom: 4%;
+}
+
+.productPlanBoxesBig {
+    width: 23%;
+    background-color: #19191F;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    font-size: 0.6rem;
+    height: 100%;
+    margin: 1%;
+    min-width: 221px;
+    min-height: 552px;
+    flex-wrap: wrap;
+}
+
+.checkMark {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    height: fit-content;
+    width: 100%;
+}
+
+.planTitle {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    margin: auto;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.planPricing {
+    display: flex;
+    flex-direction: row;
+    height: 25%;
+    width: 100%;
+    align-items: center;
+    justify-content: left;
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+.planImage {
+    width: 100%;
+    height: 15%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.planDescription {
+    width: 100%;
+    height: 15vh;
+    color: #707995;
+    flex-wrap: wrap;
+
+}
+
+.checkButton {
+    margin: auto;
+    height: 20vh;
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+
+.FAQ {
+    width: 100%;
+    height: 1000px;
+    align-content: center;
+    justify-content: right;
+    display: flex;
+    margin-top: 8%;
+}
+
+.FAQMini {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.faq-heading {
+    border-bottom: #777;
+    padding: 20px 60px;
+
+}
+
+.faq-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 40%;
+    width: 100%;
+
+}
+
+.hr-line {
+    width: 100%;
+    margin: auto;
+    background-color: #2B2B34;
+
+}
+
+/* Style the buttons that are used to open and close the faq-page body */
+.faq-page {
+    /* background-color: #eee; */
+    color: white;
+    cursor: pointer;
+    padding: 30px 20px;
+    width: 100%;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin: auto;
+    font-size: 1.5rem;
+
+}
+
+.faq-body {
+    margin: auto;
+    /* text-align: center; */
+    width: 100%;
+    padding: auto;
+
+}
+
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.faq-page:hover {}
+
+/* Style the faq-page panel. Note: hidden by default */
+.faq-body {
+    color: #707995;
+    padding: 0 18px;
+
+    display: none;
+    overflow: hidden;
+}
+
+.faq-page:after {
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+    transition: 0.3s;
+}
+
+.active:after {
+    content: "\2796";
+    transition: 0.3s;
+    /* Unicode character for "minus" sign (-) */
+}
+
+.FAQImage {
+    width: 55%;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    overflow: visible;
+}
+
+.faq-container-container {
+    height: 100%;
+    display: flex;
+    width: 45%;
+    justify-content: center;
+}
+
+#subscribeButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    width: fit-content;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+a:visited {
+    text-decoration: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: white
+}
