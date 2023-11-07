@@ -69,7 +69,8 @@
 html {
     background-color: #101014;
     font-family: circular;
-    color: #ffffff
+    color: #ffffff;
+    -webkit-font-smoothing: antialiased
 }
 
 #promoCode {
@@ -212,7 +213,7 @@ html {
 
 #featuresTextSectionMini {
     margin: auto;
-    width: 70%;
+    width: 80%;
     height: fit-content;
     justify-content: flex-start;
     flex-wrap: wrap;
@@ -272,7 +273,7 @@ html {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: sum(fit-content+200px);
+    height: fit-content;
 }
 
 #productPlansText {
@@ -467,11 +468,12 @@ footer {
 }
 
 .productPlanBoxes {
-    width: 75%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     height: 95%;
-    margin-top: 25%;
+    margin-top: 12%;
+    margin-bottom: 12%;
 }
 
 .productPlanBoxesPrice {
@@ -504,7 +506,10 @@ footer {
     align-items: center;
     justify-content: left;
     height: fit-content;
+    margin-bottom: 3%;
     width: 100%;
+    font-size: 0.75rem;
+    font-family: CBold;
 }
 
 .planTitle {
@@ -514,18 +519,20 @@ footer {
     height: fit-content;
     margin: auto;
     margin-top: 4%;
-    margin-bottom: 4%;
+    margin-bottom: 3%;
+    font-family: CBold;
 }
 
 .planPricing {
     display: flex;
     flex-direction: row;
-    height: 25%;
+    height: fit-content;
     width: 100%;
     align-items: center;
     justify-content: left;
     text-align: center;
     margin-bottom: 4%;
+    font-family: CBold;
 }
 
 .planImage {
@@ -534,22 +541,30 @@ footer {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
 
 }
 
 .planDescription {
     width: 100%;
-    height: 15vh;
+    height: 6rem;
+    margin: auto;
     color: #707995;
     flex-wrap: wrap;
+    font-family: CBold;
+    font-size: 0.75rem;
+    margin-bottom: 10%;
 
 }
 
 .checkButton {
     margin: auto;
-    height: 20vh;
+    height: fit-content;
     width: 100%;
     flex-wrap: wrap;
+    margin-bottom: 5%;
 
 }
 
@@ -685,4 +700,42 @@ a:visited {
 a {
     text-decoration: none;
     color: white
+}
+
+@font-face {
+    font-family: CMedium;
+    src: url(fonts/circular-std-font-family/CircularStd-Medium.woff);
+}
+
+.CMedium {
+    font-family: CMedium;
+}
+
+@font-face {
+    font-family: CBold;
+    src: url(fonts/circular-std-font-family/CircularStd-Bold.woff);
+}
+
+.CBold {
+    font-family: CBold;
+}
+
+.planPurchaseButton {
+    display: flex;
+    height: 4.125rem;
+    width: 100%;
+    margin-bottom: 1rem;
+    font-family: CBold;
+    font-size: 1.25rem;
+}
+
+.planPurchaseButtonC {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.4375rem;
+    background-color: #50C9C3;
 }
