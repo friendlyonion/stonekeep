@@ -6,11 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="static/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="static/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="static/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/favicon-16x16.png">
+    <link rel="manifest" href="static/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
     <title>Stonekeep</title>
-
 </head>
 
 <body>
+
     <div id='navbar'>
         <span class="my-spacer"></span>
 
@@ -42,38 +48,41 @@
         </div>
 
         <div id='dashboard-button'>
-            <a href="https://whop.com/"><img src='static/Dashboard.png' style="width:17vw"></a>
+            <a class='dashboard-button-ar' href="https://whop.com/">Dashboard</a>
         </div>
         <span class="my-spacer"></span>
 
 
     </div>
     <div id='promoCode'>
-        <p style="margin: 0;">
-            'LAUNCH' For 25% Off!
-        </p>
+        <a style="font-size: 1.302vw;width: 100%;height:100%;display:flex;align-items: center;justify-content: center;"
+            class="CBlack" href="https://whop.com/stonekeep/">
+            JOIN FREE BETA NOW!
+        </a>
     </div>
     <div id='home-section'>
         <div id='left-section'>
             <div id='left-section-text'>
-                <h1 style="font-size: 6vw;margin-bottom: 1%;">Stonekeep</h1>
+                <h1 style="font-size: 5.833vw;margin-bottom: 1%;" class='CBold'>Stonekeep</h1>
                 <div style="width:100%;display: flex;flex-direction: row;justify-content: left;align-items: center;">
                     <img src="static/Rectangle 10.png" style="width:9vw;height: auto;">
-                    <h3
-                        style="width:93vw; margin-bottom: 3%;margin-top:3%;font-size: 2.5vw;text-align: right;color:#50C9C3">
+                    <h3 style="width:93vw; margin-bottom: 3%;margin-top:3%;font-size: 2.5vw;text-align: right;color:#50C9C3"
+                        class="CBold">
                         Trading
                         Systems</h3>
                 </div>
-                <p class="CMedium">Innovators in quantitative machine learning for advanced trading.</p>
+                <p class="CMedium" style="font-size: 1.5625rem">Innovators in quantitative machine learning for advanced
+                    trading.</p>
             </div>
             <div id='left-section-button'>
-                <a style='width:50%;' href="mailto:support@stonekeeptrading.com"><img src='static/Purchase.png'
-                        style="flex: 1 auto;width: 14vw;"></a>
+                <a class='topSectionButtons' style='flex: 1 auto' href="mailto:support@stonekeeptrading.com">Contact</a>
                 <span class="my-spacer-button"></span>
 
-                <a><img src='static/Learn More.png' style="flex: 1 auto;width: 14vw;"></a>
+                <a class='topSectionButtons' style='flex: 1 auto'>View Docs</a>
             </div>
-            <a href="#productPlans"><img src='static/Purchase-2.png' style="width: 37vw;margin-left: -2%;"></a>
+            <div class="topPurchContainer">
+                <a href="#productPlans" class='topSectionButtonsPurchase'>Purchase</a>
+            </div>
 
         </div>
         <div id='right-section'>

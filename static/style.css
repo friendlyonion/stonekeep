@@ -1,14 +1,15 @@
 #navbar {
     width: 100%;
-    height: 15vh;
+    height: 18vh;
     display: flex;
     flex-direction: row;
-    font-size: 1.3vw;
+    font-size: 1.563vw;
     background-color: #15151a;
     align-items: center;
     color: #ffffff;
     justify-content: center;
     text-align: center;
+    font-family: CBlack;
 }
 
 #home {
@@ -41,9 +42,27 @@
 }
 
 #dashboard-button {
+
     flex: 1 auto;
     transition: 0.3s;
-    width: 17vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+
+}
+
+.dashboard-button-ar {
+    font-size: 1.563vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    width: 15.208vw;
+    height: 4.01vw;
+    background-color: #50C9C3;
+    border-radius: 0.521vw;
+
 }
 
 #dashboard-button:hover {
@@ -75,7 +94,7 @@ html {
 
 #promoCode {
     width: 100%;
-    height: 5vh;
+    height: 7vh;
     color: #ffffff;
     text-align: center;
     margin: auto;
@@ -83,6 +102,7 @@ html {
     align-items: center;
     justify-content: center;
     display: flex;
+    z-index: 999;
 }
 
 #home-section {
@@ -122,7 +142,7 @@ html {
     margin-right: 10%;
     margin-left: 10%;
     margin-bottom: -2%;
-    height: auto;
+    height: 4vw;
     width: 100%;
 
 
@@ -140,7 +160,7 @@ html {
 }
 
 .my-spacer-button {
-    flex: 1 auto;
+    flex: 0.5 auto;
 }
 
 #supportingMarkets {
@@ -720,6 +740,15 @@ a {
     font-family: CBold;
 }
 
+@font-face {
+    font-family: CBlack;
+    src: url(fonts/circular-std-font-family/CircularStd-Black.woff);
+}
+
+.CBlack {
+    font-family: CBlack;
+}
+
 .planPurchaseButton {
     display: flex;
     height: 4.125rem;
@@ -738,4 +767,52 @@ a {
     height: 100%;
     border-radius: 0.4375rem;
     background-color: #50C9C3;
+}
+
+.topSectionButtons {
+    font-family: CBold;
+    font-size: 1.042vw;
+    flex: 1.3 auto;
+    height: 3.36375vw;
+    background-color: #50C9C3;
+    border-radius: 0.365vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.topSectionButtons:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.topSectionButtonsPurchase {
+    font-family: CBold;
+    font-size: 1.042vw;
+    width: 100%;
+    height: 3.36375vw;
+    background-color: #50C9C3;
+    border-radius: 0.365vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    transition: 0.3s;
+}
+
+.topSectionButtonsPurchase:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.topPurchContainer {
+    display: flex;
+    flex-direction: row;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: -2%;
+    height: 4vw;
+    width: 100%;
+    margin-top: 2vw;
 }
