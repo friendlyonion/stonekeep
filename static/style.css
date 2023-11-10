@@ -322,7 +322,7 @@ html {
     background-color: #272730;
     border-radius: 25px;
     flex-direction: column;
-    padding-top: 2%;
+
     overflow: hidden;
 
 }
@@ -336,12 +336,13 @@ html {
     display: flex;
     margin-bottom: 1%;
     ;
+    margin-top: 2%;
 }
 
 #ourMissionPara {
     justify-content: center;
     align-items: center;
-    width: 95%;
+    width: 93%;
     height: 80%;
     margin-bottom: 3%;
 
@@ -449,7 +450,9 @@ footer {
 
 #footerDisc {
     width: 80%;
-    font-size: 0.7rem;
+    font-size: 1.042vw;
+    color: #707995;
+    font-family: CMedium;
 }
 
 #footerLinks {
@@ -767,6 +770,13 @@ a {
     height: 100%;
     border-radius: 0.4375rem;
     background-color: #50C9C3;
+    transition: 0.3s;
+
+}
+
+.planPurchaseButtonC:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
 }
 
 .topSectionButtons {
