@@ -1,6 +1,6 @@
 #navbar {
-    width: 100%;
-    height: 18vh;
+    width: 100vw;
+    height: 10vw;
     display: flex;
     flex-direction: row;
     font-size: 1.563vw;
@@ -94,8 +94,8 @@ html {
 }
 
 #promoCode {
-    width: 100%;
-    height: 7vh;
+    width: 100vw;
+    height: 4vw;
     color: #ffffff;
     text-align: center;
     margin: auto;
@@ -108,15 +108,14 @@ html {
 
 #home-section {
     display: flex;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 42.063vw;
     background-image: url(/static/BackgroundDetails.png);
-    background-size: 100%;
+    background-size: 100vw;
     padding-bottom: 10%;
 }
 
 #left-section {
-    flex: 1 auto;
     height: auto;
     width: 30%;
     justify-content: center;
@@ -127,13 +126,22 @@ html {
 }
 
 #right-section {
-    width: 90%;
-    justify-content: left;
+    width: 70%;
+    justify-content: center;
+    align-items: flex-end;
     display: flex;
     flex-direction: column;
-    overflow: hidden;
-    flex: 1.7 auto;
-    margin-top: -7%;
+    margin-top: 10%;
+
+
+}
+
+#right-section-image {
+    width: 100%;
+    justify-content: right;
+    align-items: flex-end;
+    display: flex;
+
 
 }
 
@@ -422,7 +430,7 @@ html {
 
 #fname {
     font-size: 0.5rem;
-    background-color: #101014;
+    background-color: #272730;
     width: 100%;
     height: 100%;
     border-radius: 0.521vw;
@@ -439,6 +447,12 @@ footer {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    border-top: 0.2vw;
+    border-color: #2B2B34;
+    border-style: solid;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
 }
 
 #footerMini {
@@ -449,6 +463,7 @@ footer {
     justify-content: center;
     margin-bottom: 5%;
     font-size: 1.042vw;
+    margin-top: 5%;
     color: #707995;
 }
 
