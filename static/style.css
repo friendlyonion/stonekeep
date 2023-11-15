@@ -572,7 +572,7 @@ footer {
     font-size: 0.6rem;
     height: 100%;
     margin: 1%;
-    min-width: 221px;
+    min-width: 280px;
     min-height: 552px;
     flex-wrap: wrap;
 }
@@ -631,7 +631,7 @@ footer {
     color: #707995;
     flex-wrap: wrap;
     font-family: CBold;
-    font-size: 0.625vw;
+    font-size: 0.75rem;
     margin-bottom: 10%;
 
 }
@@ -698,8 +698,7 @@ body {
     outline: none;
     transition: 0.4s;
     margin: auto;
-    font-size: 1.5rem;
-
+    font-size: calc(12px + 1.4vw)
 }
 
 .faq-body {
@@ -720,6 +719,7 @@ body {
 .faq-body {
     color: #707995;
     padding: 0 18px;
+    font-size: calc(8px + 1.2vw);
 
     display: none;
     overflow: hidden;
@@ -894,10 +894,10 @@ a {
 
 .saveButton {
     display: flex;
-    font-size: 0.625vw;
+    font-size: 0.75rem;
     background-color: #50C9C3;
-    width: 4.323vw;
-    height: 1.667vw;
+    width: 5.1875rem;
+    height: 2rem;
     text-align: center;
     justify-content: center;
     align-items: center;
