@@ -3,13 +3,13 @@
     height: 10vw;
     display: flex;
     flex-direction: row;
-    font-size: 1.563vw;
+    font-size: 1.3vw;
     background-color: #15151a;
     align-items: center;
     color: #ffffff;
     justify-content: center;
     text-align: center;
-    font-family: CBlack;
+    font-family: CBold;
 }
 
 #home {
@@ -50,6 +50,7 @@
     text-align: center;
     display: flex;
 
+
 }
 
 .dashboard-button-ar {
@@ -62,6 +63,8 @@
     height: 4.01vw;
     background-color: #50C9C3;
     border-radius: 0.521vw;
+    box-shadow: 0 0 20px 1px #50c9c39f;
+
 
 }
 
@@ -155,6 +158,8 @@ html {
     width: 100%;
 
 
+
+
 }
 
 #left-section-text {
@@ -169,7 +174,7 @@ html {
 }
 
 .my-spacer-button {
-    flex: 0.5 auto;
+    flex: 0.2 auto;
 }
 
 #supportingMarkets {
@@ -193,7 +198,7 @@ html {
     width: 100%;
     justify-content: center;
     display: flex;
-    height: 50vh;
+    height: 40vw;
     background-color: #19191F;
     align-items: center;
 }
@@ -419,17 +424,22 @@ html {
 #subscribeButton {
     font-size: 1vw;
     background-color: #50C9C3;
-    width: 30%;
+    width: 40%;
     height: 100%;
     text-align: center;
     justify-content: center;
-    border-radius: 7px;
+    border-radius: 0.7vw;
+    margin-left: -5%;
     font-family: CMedium;
+    z-index: 20;
+    box-shadow: 0 0 20px 1px #50c9c39f;
+
 
 }
 
 #fname {
-    font-size: 0.5rem;
+    color: white;
+    font-size: 1vw;
     background-color: #272730;
     width: 100%;
     height: 100%;
@@ -437,7 +447,15 @@ html {
     border: 0;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
+    font-family: CMedium;
+    margin-left: 5%;
+    text-align: center;
+    box-shadow: 0 0 20px 1px #0000005b;
 
+}
+
+#fname:focus {
+    outline-width: 0;
 }
 
 footer {
@@ -527,7 +545,7 @@ footer {
 }
 
 .productPlanBoxes {
-    width: 80%;
+    width: 70%;
     display: flex;
     flex-direction: column;
     height: 95%;
@@ -574,7 +592,7 @@ footer {
 .planTitle {
     width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     height: fit-content;
     margin: auto;
     margin-top: 4%;
@@ -613,7 +631,7 @@ footer {
     color: #707995;
     flex-wrap: wrap;
     font-family: CBold;
-    font-size: 0.75rem;
+    font-size: 0.625vw;
     margin-bottom: 10%;
 
 }
@@ -689,6 +707,7 @@ body {
     /* text-align: center; */
     width: 100%;
     padding: auto;
+    font-family: CMedium;
 
 }
 
@@ -744,11 +763,9 @@ body {
     text-align: center;
     text-decoration: none;
     color: white;
-    width: fit-content;
     padding-left: 5%;
     padding-right: 5%;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
+
 }
 
 a:visited {
@@ -807,6 +824,8 @@ a {
     border-radius: 0.4375rem;
     background-color: #50C9C3;
     transition: 0.3s;
+    box-shadow: 0 0 20px 1px #50c9c39f;
+
 
 }
 
@@ -818,7 +837,7 @@ a {
 .topSectionButtons {
     font-family: CBold;
     font-size: 1.042vw;
-    flex: 1.3 auto;
+    flex: 1.4 auto;
     height: 3.36375vw;
     background-color: #50C9C3;
     border-radius: 0.365vw;
@@ -826,6 +845,8 @@ a {
     justify-content: center;
     align-items: center;
     transition: 0.3s;
+    box-shadow: 0 0 20px 1px #50c9c39f;
+
 }
 
 .topSectionButtons:hover {
@@ -845,6 +866,8 @@ a {
     align-items: center;
     margin: auto;
     transition: 0.3s;
+    box-shadow: 0 0 20px 1px #50c9c39f;
+
 }
 
 .topSectionButtonsPurchase:hover {
@@ -860,11 +883,46 @@ a {
     margin-bottom: -2%;
     height: 4vw;
     width: 100%;
-    margin-top: 2vw;
+    margin-top: 1.4vw;
 }
 
 .footerLinksPolicy {
     color: #707995;
     font-family: CMedium;
     font-size: 1.042vw
+}
+
+.saveButton {
+    display: flex;
+    font-size: 0.625vw;
+    background-color: #50C9C3;
+    width: 4.323vw;
+    height: 1.667vw;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    font-family: CBlack;
+    box-shadow: 0 0 20px 1px #50c9c39f;
+
+}
+
+.discordButtonFooter {
+    display: flex;
+    font-size: 0.625vw;
+    background-color: #50C9C3;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    box-shadow: 0 0 20px 1px #50c9c39f;
+    width: 10vw;
+    height: 3vw;
+    transition: 0.3s;
+
+}
+
+.discordButtonFooter:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
 }
