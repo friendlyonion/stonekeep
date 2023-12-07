@@ -120,7 +120,7 @@ html {
 
 #left-section {
     height: auto;
-    width: 30%;
+    width: 30vw;
     justify-content: center;
     margin-left: 8%;
     display: flex;
@@ -198,7 +198,7 @@ html {
     width: 100%;
     justify-content: center;
     display: flex;
-    height: 40vw;
+    height: 20vw;
     background-color: #19191F;
     align-items: center;
 }
@@ -348,16 +348,17 @@ html {
     height: 20%;
     flex-direction: row;
     display: flex;
-    margin-bottom: 1%;
+    margin-bottom: 2%;
     ;
-    margin-top: 2%;
+    margin-top: 4%;
 }
 
 #ourMissionPara {
     justify-content: center;
     align-items: center;
-    width: 93%;
+    width: 90%;
     height: 80%;
+
     margin-bottom: 3%;
 
 
@@ -496,6 +497,17 @@ footer {
     font-size: 1.042vw;
     color: #707995;
 }
+.footerSectionsLogo {
+    font-size: 0.7rem;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+    text-align: left;
+    font-size: 1.042vw;
+    color: #707995;
+}
 
 #footerDisc {
     width: 80%;
@@ -519,7 +531,7 @@ footer {
 }
 
 #footerCopyright {
-    width: 33%;
+    width: 38%;
     font-family: CMedium;
     font-size: 1.042vw;
     color: #707995;
@@ -647,7 +659,7 @@ footer {
 
 .FAQ {
     width: 100vw;
-    height: 80vw;
+    height: 60vw;
     align-content: center;
     justify-content: right;
     display: flex;
