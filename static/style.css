@@ -576,15 +576,15 @@ footer {
 }
 
 .productPlanBoxesBig {
-    width: 23%;
+    width: 22%;
     background-color: #19191F;
     display: flex;
     justify-content: center;
     border-radius: 20px;
     font-size: 0.6rem;
     height: 100%;
-    margin: 1%;
-    min-width: 280px;
+    margin: 1.5%;
+    min-width: 270px;
     min-height: 552px;
     flex-wrap: wrap;
 }
@@ -940,4 +940,15 @@ a {
 }
 .oofer{
     display: flex;
+}
+.scrollForMore{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width:100%;
+    margin-top: 4%;
+    margin-left: 9.5%;
+    font-size: 20px;
+    font-family: CBold;
+    color: #707995;
 }
